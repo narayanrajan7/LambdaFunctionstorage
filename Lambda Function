@@ -6,7 +6,7 @@ exports.handler = function(event, context, callback){
 
     var crypto = require('crypto'),
     algorithm = 'aes-256-ctr',
-    password = 'n4F2Efeq';
+    password = 'enter here';
     
     function encrypt(text){
         var cipher = crypto.createCipher(algorithm,password);
